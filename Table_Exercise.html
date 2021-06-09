@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Table</title>
+
+<!-- Some Styles -->
+    <style>
+
+      table{
+        width: 600px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      table, td, th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 8px;
+        line-height: 1.3;
+      }
+/* For Table Headings */
+      .label{
+        font-weight: 600;
+        background-color: lightblue;
+      }
+/* For Headings in Table Details Section */
+      .lab{
+        font-weight: 600;
+      }
+    
+    </style>
+  </head>
+  
+<!-- Body Part -->
+  
+  <body>
+
+<!-- Table and Table Items -->
+
+      <table>
+        <tr>
+          <th colspan="3" class="label">Invoice #12345ABC</th>
+          <th class="label">18 Jul 2019</th>
+        </tr>
+
+        <tr>
+          <td colspan = "2">
+            <span class="lab">Pay To:</span><br>
+            The Tech Park<br>
+            123 Willow Street<br>
+            Boulevard, LA - 567892
+          </td>
+          
+          <td colspan="2">
+            <span class="lab">Customer:</span><br>
+            John Lark<br>
+            Dummy Apartments<br>
+            276 Main Street<br>
+            Boulevard, LA - 567892
+          </td>
+        </tr>
+        
+        <tr>
+          <th class="label">Name/Description</th>
+          <th class="label">Qty.</th>
+          <th class="label">MRP</th>
+          <th class="label">Amount</th>
+        </tr>
+        
+        <tr>
+          <td>Biryani</td>
+          <td>3</td>
+          <td>400</td>
+          <td>1200</td>
+        </tr>
+        
+        <tr>
+          <td>Chocolate Shake</td>
+          <td>3</td>
+          <td>200</td>
+          <td>600</td>
+        </tr>
+        
+        <tr>
+          <th colspan="3" class="label">Subtotal:</th>
+          <td>1800</td>
+        </tr>
+        
+        <tr>
+          <th colspan="2" class="label">Tax</th>
+          <td>10%</td>
+          <td>180</td>
+        </tr>
+        
+        <tr>
+          <th colspan="3" class="label">Grand Total</th>
+          <td>Rs 1620</td>
+        </tr>
+      </table>
+  
+<!-- The End -->
+
+  </body>
+</html>
